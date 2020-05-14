@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div style="padding-left: 10px; padding-top: 10px" class="ml-auto">
+    <a class="btn btn-success" href="/new_patient" role="button">Add Patients</a>
+    <a class="btn btn-danger" href="/new_patient" role="button">Remove Patients</a>
+
+</div>
+<div style="padding-left: 10px; padding-top: 10px" class="ml-auto">
+    <table class="table">
+  <thead class="thead-light">
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Last Name</th>
+      <th scope="col">Surname</th>
+      <th scope="col">Room</th>
+      <th scope="col">Tempter</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for patient in patients %}
+      <tr>
+        <td>{{patient.name}}</td>
+        <td>{{patient.lastname}}</td>
+        <td>{{patient.surname}}</td>
+        <td>{{patient.room}}</td>
+        <th scope="row">36.6</th>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+</div>
+
+{% endblock %}

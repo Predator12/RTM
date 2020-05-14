@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+ <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+            <div class="panel-heading">  <h4 >User Profile</h4></div>
+             <div class="panel-body">
+            <div class="col-md-4 col-xs-12 col-sm-6 col-lg-4">
+                {% if img %}
+                    <img alt="User Pic" src="{{img}}"  class="img-circle img-responsive">
+                {% else %}
+                    <img alt="User Pic" src="http://images.clipartpanda.com/user-clipart-matt-icons_preferences-desktop-personal.png" id="profile-image1" class="img-circle img-responsive">
+                {% endif %}
+                <form action="/upload_image" method="POST" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" name="image" id="image">
+                        <label class="custom-file-label" for="image">Select image...</label>
+                      </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Upload</button>
+
+                </form>
+
+            </div>
+            <div class="col-md-8 col-xs-12 col-sm-6 col-lg-8" >
+                <div class="container" >
+                  <h2>{{ name }} {{lastname}}</h2>
+                  <p>an   <b> Employee</b></p>
+
+
+                </div>
+                 <hr>
+                <ul class="container details" >
+                  <li><p><span class="glyphicon glyphicon-user one" style="width:50px;"></span>i.rudberg</p></li>
+                  <li><p><span class="glyphicon glyphicon-envelope one" style="width:50px;"></span>{{email}}</p></li>
+                </ul>
+                <hr>
+                <div class="col-sm-5 col-xs-6 tital " >Date Of Joining: 15 Jun 2016</div>
+            </div>
+      </div>
+  </div>
+  </div>
+
+
+{% endblock %}
+

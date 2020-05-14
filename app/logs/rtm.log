@@ -1,0 +1,170 @@
+2020-05-04T02:31:31.455802+0300 - level=INFO - [views.py:47 - create_user() thread_id - 20892]:
+Start create user
+2020-05-04T02:33:52.312592+0300 - level=INFO - [views.py:47 - create_user() thread_id - 19712]:
+Start create user
+2020-05-04T14:22:15.448268+0300 - level=INFO - [main.py:23 - create_user() thread_id - 7988]:
+Start create user
+2020-05-04T17:40:32.868238+0300 - level=INFO - [auth.py:23 - login_post() thread_id - 19016]:
+Successful get user Pavlo from db
+2020-05-04T17:43:50.412484+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 12468]:
+Successful get user Pavlo from db
+2020-05-04T17:43:50.413514+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 12468]:
+Successful login
+2020-05-04T18:16:28.995052+0300 - level=INFO - [auth.py:45 - logout() thread_id - 20364]:
+Successful logout
+2020-05-04T18:21:10.921988+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 8804]:
+Successful get user Pavlo from db
+2020-05-04T18:21:10.922986+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 8804]:
+Successful login
+2020-05-04T18:29:38.614338+0300 - level=INFO - [auth.py:45 - logout() thread_id - 8420]:
+Successful logout
+2020-05-04T18:53:00.828864+0300 - level=INFO - [auth.py:45 - logout() thread_id - 4844]:
+Successful logout
+2020-05-04T18:54:00.451663+0300 - level=INFO - [auth.py:45 - logout() thread_id - 12128]:
+Successful logout
+2020-05-04T18:57:04.477112+0300 - level=INFO - [auth.py:45 - logout() thread_id - 10036]:
+Successful logout
+2020-05-04T18:57:23.599907+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 11564]:
+Successful get user Pavlo from db
+2020-05-04T18:57:40.773025+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 11712]:
+Successful get user Pavlo from db
+2020-05-04T18:58:32.025080+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 22484]:
+Successful get user Pavlo from db
+2020-05-04T19:00:05.825200+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 10392]:
+Successful get user Pavlo from db
+2020-05-04T19:00:05.826191+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 10392]:
+Successful login
+2020-05-04T19:00:28.747796+0300 - level=INFO - [auth.py:45 - logout() thread_id - 15760]:
+Successful logout
+2020-05-04T19:05:48.654658+0300 - level=INFO - [auth.py:45 - logout() thread_id - 17232]:
+Successful logout
+2020-05-04T19:05:53.044696+0300 - level=INFO - [auth.py:45 - logout() thread_id - 8632]:
+Successful logout
+2020-05-04T19:06:28.952397+0300 - level=INFO - [auth.py:45 - logout() thread_id - 14500]:
+Successful logout
+2020-05-04T19:09:19.530305+0300 - level=INFO - [auth.py:46 - logout() thread_id - 20476]:
+Successful logout
+2020-05-04T19:10:05.558513+0300 - level=INFO - [auth.py:47 - logout() thread_id - 3788]:
+Successful logout
+2020-05-04T19:10:30.238558+0300 - level=INFO - [auth.py:47 - logout() thread_id - 3640]:
+Successful logout
+2020-05-04T19:10:42.942110+0300 - level=INFO - [auth.py:47 - logout() thread_id - 18852]:
+Successful logout
+2020-05-04T19:11:04.525599+0300 - level=INFO - [auth.py:45 - logout() thread_id - 1468]:
+Successful logout
+2020-05-04T19:11:16.067858+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 13152]:
+Successful get user Pavlo from db
+2020-05-04T19:11:16.068852+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 13152]:
+Successful login
+2020-05-04T19:11:19.478369+0300 - level=INFO - [auth.py:45 - logout() thread_id - 3964]:
+Successful logout
+2020-05-04T19:11:22.916340+0300 - level=INFO - [auth.py:45 - logout() thread_id - 15208]:
+Successful logout
+2020-05-04T19:11:32.975175+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 10472]:
+Successful get user Pavlo from db
+2020-05-04T19:11:32.976180+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 10472]:
+Successful login
+2020-05-04T19:18:45.038861+0300 - level=INFO - [auth.py:45 - logout() thread_id - 20296]:
+Successful logout
+2020-05-04T19:19:25.307476+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 13760]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678'), ('remember', 'on')])
+2020-05-04T19:19:26.642283+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 13760]:
+Successful get user Pavlo from db
+2020-05-04T19:19:26.643279+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 13760]:
+Successful login
+2020-05-04T19:20:16.558820+0300 - level=INFO - [auth.py:45 - logout() thread_id - 9308]:
+Successful logout
+2020-05-04T19:20:23.514196+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 19272]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '123456')])
+2020-05-04T19:20:23.599543+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 19272]:
+Successful get user Pavlo from db
+2020-05-04T19:22:14.758909+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 19528]:
+request data ImmutableMultiDict([('username', 'd'), ('password', '1')])
+2020-05-04T19:23:02.475126+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 6504]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', 'qef')])
+2020-05-04T19:23:02.557337+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 6504]:
+Successful get user Pavlo from db
+2020-05-04T19:23:19.696243+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 10316]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-04T19:23:19.850216+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 10316]:
+Successful get user Pavlo from db
+2020-05-04T19:23:19.851257+0300 - level=INFO - [auth.py:38 - login_post() thread_id - 10316]:
+Successful login
+2020-05-04T19:28:24.126980+0300 - level=INFO - [auth.py:46 - logout() thread_id - 21372]:
+Successful logout
+2020-05-04T19:28:32.546381+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 15792]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-04T19:28:32.628167+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 15792]:
+Successful get user Pavlo from db
+2020-05-04T19:28:32.629210+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 15792]:
+Successful login
+2020-05-04T19:40:59.595977+0300 - level=INFO - [auth.py:46 - logout() thread_id - 11724]:
+Successful logout
+2020-05-04T19:41:09.198268+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 11700]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-04T19:41:09.283043+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 11700]:
+Successful get user Pavlo from db
+2020-05-04T19:41:09.283043+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 11700]:
+Successful login
+2020-05-04T21:44:01.103563+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 1844]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-04T21:44:01.573077+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 1844]:
+Successful get user Pavlo from db
+2020-05-04T21:44:01.574074+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 1844]:
+Successful login
+2020-05-04T21:44:41.846745+0300 - level=INFO - [auth.py:46 - logout() thread_id - 11228]:
+Successful logout
+2020-05-04T21:45:08.476696+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 20512]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-04T21:45:08.529891+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 20512]:
+Successful get user Pavlo from db
+2020-05-04T21:45:08.530929+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 20512]:
+Successful login
+2020-05-13T01:28:31.613791+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 25132]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-13T01:28:32.096968+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 25132]:
+Successful get user Pavlo from db
+2020-05-13T01:28:32.131801+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 25132]:
+Successful login
+2020-05-13T01:39:30.426863+0300 - level=INFO - [main.py:28 - upload_image_to_mongo() thread_id - 28088]:
+img photo5312178546157924109.jpg
+2020-05-13T01:43:08.861102+0300 - level=INFO - [main.py:29 - upload_image_to_mongo() thread_id - 20524]:
+img photo5312178546157924109.jpg
+2020-05-13T01:44:01.650382+0300 - level=INFO - [main.py:29 - upload_image_to_mongo() thread_id - 19344]:
+img photo5312178546157924109.jpg
+2020-05-13T01:57:55.893975+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 7572]:
+img photo5312178546157924109.jpg
+2020-05-13T02:43:32.810664+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 20592]:
+img <FileStorage: 'photo5312178546157924111.jpg' ('image/jpeg')>
+2020-05-13T02:47:33.383099+0300 - level=INFO - [main.py:32 - upload_image_to_mongo() thread_id - 26988]:
+img <FileStorage: 'photo5312178546157924112.jpg' ('image/jpeg')>
+2020-05-13T03:09:21.235140+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 15964]:
+img <FileStorage: 'photo5312178546157924116.jpg' ('image/jpeg')>
+2020-05-13T03:10:19.625671+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 24644]:
+img <FileStorage: 'photo5312178546157924116.jpg' ('image/jpeg')>
+2020-05-13T03:10:28.455722+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 10772]:
+img <FileStorage: 'photo5312178546157924114.jpg' ('image/jpeg')>
+2020-05-13T23:43:02.984451+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 28504]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-13T23:43:04.647241+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 28504]:
+Successful get user Pavlo from db
+2020-05-13T23:43:04.648239+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 28504]:
+Successful login
+2020-05-13T23:44:49.918543+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 25608]:
+img <FileStorage: 'photo5312178546157924128.jpg' ('image/jpeg')>
+2020-05-14T01:33:29.439509+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 25568]:
+img <FileStorage: 'photo5312178546157924109.jpg' ('image/jpeg')>
+2020-05-14T01:37:55.454944+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 21260]:
+img <FileStorage: 'photo5312178546157924114.jpg' ('image/jpeg')>
+2020-05-14T01:40:14.502862+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 1068]:
+img <FileStorage: 'photo5312178546157924114.jpg' ('image/jpeg')>
+2020-05-14T01:46:59.268301+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 24008]:
+img <FileStorage: 'photo5312178546157924114.jpg' ('image/jpeg')>
+2020-05-14T01:54:57.969769+0300 - level=INFO - [main.py:31 - upload_image_to_mongo() thread_id - 27372]:
+img <FileStorage: 'leyble.jpg' ('image/jpeg')>
+2020-05-14T03:56:02.878309+0300 - level=INFO - [auth.py:21 - login_post() thread_id - 24172]:
+request data ImmutableMultiDict([('username', 'Pavlo'), ('password', '12345678')])
+2020-05-14T03:56:03.243635+0300 - level=INFO - [auth.py:24 - login_post() thread_id - 24172]:
+Successful get user Pavlo from db
+2020-05-14T03:56:03.244592+0300 - level=INFO - [auth.py:39 - login_post() thread_id - 24172]:
+Successful login

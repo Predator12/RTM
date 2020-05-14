@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RTM Hospital</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='images/icons/favicon.ico') }}" rel="icon" type="image/png">
+	<link href="{{ url_for('static', filename='fonts/font-awesome-4.7.0/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='fonts/Linearicons-Free-v1.0.0/icon-font.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='vendor/animate/animate.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='vendor/css-hamburgers/hamburgers.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='vendor/animsition/css/animsition.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='vendor/daterangepicker/daterangepicker.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='css/util.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" type="text/css">
+    <style>
+       .navbar{
+            border-radius: 0;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="{{ url_for('main.index') }}">RTM Hospital</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"> <a href="{{ url_for('main.index') }}" class="navbar-item">Home</a></li>
+                <li><a href="{{ url_for('main.profile') }}" class="navbar-item">Profile</a></li>
+                  <li><a href="{{ url_for('patients.patients_list') }}" class="navbar-item">Patients</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="{{ url_for('auth.logout') }}" class="navbar-item">Logout</a></li>
+              </ul>
+            </div>
+          </div>
+    </nav>
+
+    <section class="section">
+        <div class="row">
+            <div class="col-xs-12">
+                {% block content %}
+                {% endblock %}
+            </div>
+        </div>
+        <div class=row">
+            <div class="col-xs-6">
+            </div>
+            <div class="col-xs-6">
+            </div>
+        </div>
+        <div class="row">
+        </div>
+    </section>
+
+</body>
+
+</html>
